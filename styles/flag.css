@@ -1,0 +1,24 @@
+section:first-of-type{
+    background: linear-gradient(90deg, green 33%, yellow 33%, yellow 67%, red 67%);
+}
+
+section:nth-of-type(2){
+    background: linear-gradient(180deg, green 33%, yellow 33%, yellow 67%, blue 67%);
+}
+
+section:nth-of-type(3){
+    background: linear-gradient(90deg, green 33%, white 33%,  white 67%, green 67%);
+}
+
+section:nth-of-type(4){
+    background: radial-gradient(circle, red 30%, white 30%);
+}
+
+section:nth-of-type(5){
+    background: linear-gradient(90deg, black 33%, yellow 33%, yellow 67%, red 67%);
+}
+
+section:nth-of-type(6){
+    background: linear-gradient(90deg, blue 33%, white 33%, white 67%, red 67%);
+}
+

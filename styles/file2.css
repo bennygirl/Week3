@@ -1,0 +1,70 @@
+h1{
+    color: moccasin;
+}
+p{
+    background-color: aqua;
+}
+h2 ~ p{
+    background-color: fuchsia;
+}
+h2 + p{
+    background-color: crimson;
+
+}
+*{
+    border-right: color( blue);
+}
+/* class selector */
+h2.one{
+    color: green;
+    
+}
+.one{
+    font-size: 50px;
+    color: yellow;
+}
+section .one{
+    font-size: 50px;
+    color: yellow;
+
+}
+
+/* pseudoclass selector */
+
+ul li{
+    margin-top: 30px;
+}
+ul>:nth-child(even){
+    border: 10px double sandybrown;
+
+}
+ul>:nth-child(odd){
+    border: 10px ridge navy;
+}
+ul>:nth-child(even){
+    border: 10px double lightskyblue;
+}
+ul>:nth-child(odd){
+    border: 10px ridge lightskyblue;
+}
+ul>:nth-child(n+3){
+    border: 10px dotted lightskyblue;
+}
+ul>:nth-child(2n+5){
+    border: 10px double lightskyblue;
+}
+li:first-of-type{
+    background-color: khaki;
+}
+/* means the first type of li should have a background color of khaki  */
+
+ul>:first-child, ul>:last-child{
+    border: 10px double violet
+
+}
+ul li{
+    border: 10px dotted hotpink;
+}
+ul li{
+    border: 10px double green;
+}
