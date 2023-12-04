@@ -1,0 +1,30 @@
+body>:first-child{
+    background-image: url(../hexagonimage.png);
+    background-size: contain;
+}
+body>:nth-child(2){
+    background-image: url(../squareimage.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+
+}
+
+body>:nth-child(3){
+    background-image: url(../triangleimage.jpg), url(../hexagonimage.png), linear-gradient(to left, crimson 10%, violet 10%);
+    background-size: 100px, 50px, 30px, 20px;
+    background-repeat: repeat-y, repeat-x, no-repeat, repeat;
+    background-position: top left, center, bottom right;
+}
+
+body>:nth-child(4){
+    background-image: url(../hexagonimage.png), url(../hexagonimage.png), url(../hexagonimage.png), url(../hexagonimage.png);
+    background-size: 40px;
+    background-repeat: no-repeat; 
+    background-position: 20px 30px, 50px 100px, 100px 150px, 200px 200px;
+}
+
+body>:nth-child(5){
+    background: red;
+    background-image: url(../yellow\ star.png), url(../yellow\
+}
+

@@ -1,6 +1,6 @@
 section:first-of-type{
     background: linear-gradient(90deg, green 33%, yellow 33%, yellow 67%, red 67%);
-}
+} 
 
 section:nth-of-type(2){
     background: linear-gradient(180deg, green 33%, yellow 33%, yellow 67%, blue 67%);
